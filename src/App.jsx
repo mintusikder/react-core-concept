@@ -3,6 +3,7 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Person from './assets/components/Person'
+import Cart from './assets/components/Cart/Cart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <Person></Person>
+    <Cart></Cart>
     </>
   )
 }

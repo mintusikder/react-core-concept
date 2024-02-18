@@ -3,7 +3,7 @@
 const Person = () => {
     return (
         <div>
-            <h2>Mintu Sikder</h2>
+            <h2>Our Product</h2>
         </div>
     );
 };

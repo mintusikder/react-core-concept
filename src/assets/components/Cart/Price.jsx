@@ -1,11 +1,11 @@
 // import React from 'react';
 
-const Title = () => {
+const Price = () => {
     return (
         <div>
-            <h2>Laptop</h2>
+            <p>Price: 3000tk</p>
         </div>
     );
 };
 
-export default Title;
+export default Price;
