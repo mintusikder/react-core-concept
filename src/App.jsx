@@ -4,6 +4,7 @@ import { useState } from 'react'
 import './App.css'
 import Person from './assets/components/Person'
 import Cart from './assets/components/Cart/Cart'
+import ArrayExample from './assets/components/Event/ArrayExample'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
     <Person></Person>
     <Cart></Cart>
+    <ArrayExample></ArrayExample>
     </>
   )
 }
